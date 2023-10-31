@@ -1,0 +1,321 @@
+@font-face{
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa-VariableFont_wght.ttf") format("truetype");
+}
+
+:root{
+	--color-general:#707070;
+	--color-primario: #00438b;
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	color: var(--color-general);
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+
+#hero {
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+    padding: 10%;
+	color: #FFF;
+	background: linear-gradient(
+    rgba(3, 33, 141, 0.40), 
+    rgba(3, 33, 141, 0.40)
+  ),
+  url("../img/hero-bg-4.jpg"); 	
+}
+
+#hero h2{
+	font-size: 55px;
+	font-weight: 700;
+	color: #FFFFFF;
+	padding-bottom: 30px;
+	font-family: "Comfortaa";
+	
+}
+
+#hero p{
+	font-size: 25px;
+	color: #FFFFFF;
+	padding-bottom: 20px;		
+}
+
+.btn-secondary {
+	padding: 10px 10px;
+	color: #FFFFFF;
+	background-color: #00438b;
+	font-size: 20px;
+	font-family: "Comfortaa";
+}
+
+.btn-secondary:hover {
+	background-color:#ff7700;
+	
+}
+
+
+#features{
+	padding: 50px;
+}
+
+#features h2{
+	padding:10px;
+	padding-top: 50px;
+	font-size: 30px;
+	font-family: "Comfortaa";
+	font-weight: 800;
+	color:#000000;
+	text-align: center;
+}
+
+#features h3{
+	padding-bottom:50px;
+	font-size: 20px;
+	color:#707070;
+	text-align: center;
+
+}
+
+#features h5{
+	padding:10px;
+	font-size: 20px;
+	font-family: "Comfortaa";
+	font-weight: 800;
+	color:#000000;
+}
+
+#features p{
+	padding-bottom:10px;
+	font-size: 15px;
+	color:#707070;
+	
+}
+
+
+#features .la-mobile{
+	color:#00438b;
+	font-size:50px;
+	text-align: end;
+}
+
+#features .la-shopping-cart{
+	color:#00438b;
+	font-size:50px;
+	text-align: end;
+}
+
+#features .la-video{
+	color:#00438b;
+	font-size:50px;
+	text-align: end;
+}
+
+#features .la-arrow-right{
+	color:#00438b;
+	font-size:50px;
+	text-align: end;
+}
+
+#features .la-paint-brush{
+	color:#00438b;
+	font-size:50px;
+	text-align: end;
+}
+
+#features .la-bullhorn{
+	color:#00438b;
+	font-size:50px;
+	text-align: end;
+}
+
+
+#agency{
+	padding:60px;
+	background-color: #f5f5f5;
+}
+
+#agency h2{
+	padding:20px;
+	font-size: 45px;
+	font-family: "Comfortaa";
+	color:#000000;
+}
+
+#agency p{
+	font-size: 20px;
+	color: #707070;
+}
+
+#agency .card{
+	background-color: #c6e6fd;
+	margin:10%;
+	padding-left: 10px;
+	padding-right: 10px,
+	
+}
+
+
+#agency h4{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: "Comfortaa";
+	color:#000000;
+	text-align: center;
+}
+
+
+#agency h5{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "Comfortaa";
+	color:#000000;
+	text-align: center;
+	
+}
+
+#agency .la-calendar{
+	font-size: 50px;
+	font-weight: 400;
+	color:#000000;
+	text-align: center;
+}
+
+#agency .la-globe{
+	font-size: 50px;
+	font-weight: 400;
+	color:#000000;
+	text-align: center;
+}
+
+
+#agency .la-briefcase{
+	font-size: 50px;
+	font-weight: 400;
+	color:#000000;
+	text-align: center;
+}
+
+#agency .la-coins{
+	font-size: 50px;
+	font-weight: 400;
+	color:#000000;
+	text-align: center;
+}
+
+
+#cta{
+	padding:60px;
+	color: #FFF;
+	background: linear-gradient(
+    rgba(3, 33, 141, 0.40), 
+    rgba(3, 33, 141, 0.40)
+  ),
+  url("../img/hero-bg-2.jpg");
+}
+
+
+#cta h2{
+	font-size: 40px;
+	font-weight: 800;
+	color: #FFFFFF;
+	font-family: "Comfortaa";
+	
+}
+
+#cta .btn-secondary{
+	padding: 10px 10px;
+	color: #FFFFFF;
+	background-color: #00438b;
+	font-size: 15px;
+	font-family: "Comfortaa";
+	text-align: right;
+}
+
+#cta .btn-secondary:hover{
+	background-color:#ff7700;
+	
+}
+
+
+#subscribe{
+	padding: 60px;
+	background-color: #f5f5f5;
+}
+
+#subscribe h2{
+	font-size: 30px;
+	font-family: "Comfortaa";
+	color: #000000;
+}
+
+#subscribe p{
+	font-size: 20px;
+	color: #707070;
+}
+
+
+#subscribe .btn-primary{
+	padding: 10px 10px;
+	color: #FFFFFF;
+	background-color: #00438b;
+	font-size: 15px;
+	font-family: "Comfortaa";
+	margin-top: 2%;
+}
+
+#subscribe .btn-primary:hover{
+	background-color:#ff7700;
+	
+}
+
+header{
+	background-color: var(--color-primario);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+
+
+
+
+
+footer{
+	background-color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
